@@ -425,8 +425,8 @@ section#content {
 .list-block-all {
   padding: 0;
 }
-.banner-block {
-  margin-top: 61px;
+body {
+  padding-top: 60px;
 }
 
 
