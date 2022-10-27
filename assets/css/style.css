@@ -105,10 +105,10 @@ header .navbar .collapse ul li a:hover{
 }
 
 /*********************banner css***********************/
-.banner{
+/*.banner{
   height: 100vh;
   background-size: cover;
-}
+}*/
 .banner .overlay_contact_form{
     position: absolute;
     right: 9%;
@@ -414,6 +414,19 @@ section#content {
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
+}
+.imageclass-add img {
+  width: 100%;
+  margin-top: 95px;
+}
+.banners-top ~ .mobnumRow.bg-one .my-sm-5 {
+  margin-top: 0 !important;
+}
+.list-block-all {
+  padding: 0;
+}
+.banner-block {
+  margin-top: 61px;
 }
 
 
