@@ -1,0 +1,313 @@
+/*********************font family***********************/
+@font-face{
+  font-family: 'BebasNeue Bold';
+  src: url('../font/BebasNeue Bold.ttf');
+}
+@font-face{
+  font-family: 'Dosis-SemiBold';
+  src: url('../font/Dosis-SemiBold.ttf');
+}
+@font-face{
+  font-family: 'Dosis-Book';
+  src: url('../font/Dosis-Book.ttf');
+}
+.fa-user::before {
+  content: "\f007";
+}
+/*********************common css***********************/
+.yellow{animation:yellow_black 8s infinite  ease;}
+.black{animation:black_yellow 8s infinite  ease;}
+@keyframes yellow_black {0%{color:#fcd10a;}50%{color:#202020;}100%{color:#fcd10a;}}
+@keyframes black_yellow {0%{color:#202020;}50%{color:#fcd10a;}100%{color:#202020;}}
+
+.black_bg_head_yellow {color: #fcd10a;animation: myy 8s infinite ease;}
+.black_bg_head_white {color: #fff;animation: myyy 8s infinite ease;}
+@keyframes myy {0% {color: #fcd10a;}50% {color: #fff;}100% {color: #fcd10a;}}
+@keyframes myyy {0% {color: #fff;}50% {color: #fcd10a;}100% {color: #fff;}}
+
+.sub_title {
+  padding: 50px 0 10px 0;
+    font-size: 50px;
+    font-family: 'BebasNeue Bold';
+    font-weight: normal;
+    text-transform: uppercase;
+    color: #fcd10a;
+}
+.sub_head h5{
+  font-family: 'Dosis-SemiBold';
+  padding-bottom: 50px;
+  width: 80%;
+  margin: auto;
+}
+
+.contact_btn{
+  background-color: #fcd10a;
+    color: black;
+    padding: 5px 24px;
+    border-radius: 25px;
+    font-size: 24px;
+    margin-top: 20px;
+    font-family: 'BebasNeue Bold';
+    position: relative;
+    z-index: 0;
+  display: inline-block;
+}
+.contact_btn:before{
+  position: absolute;
+  content:'';
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  border-radius: 20px;
+  transform: scaleY(0);
+  transform-origin: top;
+  transition: ease 0.3s;
+  left: 0;
+  top:0;
+  z-index: -1;
+}
+.contact_btn:hover:before{
+  transform: scaleY(1);
+}
+.contact_btn:hover{
+  color:#202020;
+  text-decoration: none;
+}
+
+
+/*********************header css***********************/
+header{
+  background-color: #000000d6;
+  padding: 10px 0px;
+}
+header .navbar{
+  padding: 0;
+}
+header .navbar button{
+  background-color: white;
+}
+header .navbar button:focus{
+  outline: none;
+}
+header .navbar img{
+  width: 200px;
+}
+header .navbar .collapse ul li{
+  margin-left: 50px;
+}
+header .navbar .collapse ul li a{
+  color: white;
+  font-family: 'Dosis-SemiBold';
+}
+header .navbar .collapse ul li a:hover{
+  color: #fcd10a;
+}
+
+/*********************banner css***********************/
+.banner{
+  height: 100vh;
+  background-size: cover;
+}
+.banner .overlay_contact_form{
+    position: absolute;
+    right: 9%;
+    top: 55%;
+    transform: translateY(-50%);
+    background-color: #000000d1;
+    width: 27%;
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+}
+.banner .overlay_contact_form img{
+  width: 60%;
+}
+.banner .overlay_contact_form h5{
+  background-color: #0080009c;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 25px;
+}
+.banner .overlay_contact_form p{
+  font-size: 14px;
+  color: white;
+  padding: 15px 0px;
+}
+.banner .overlay_contact_form form .input-container {
+    display: flex;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.banner .overlay_contact_form form .input-container .icon {
+    padding: 10px;
+    background-color: #0080009c;
+    color: white;
+    text-align: center;
+    border: 1px solid gray;
+}
+.banner .overlay_contact_form form .input-container .input-field {
+    width: 100%;
+  padding-left: 10px;
+    outline: none;
+    border-radius: 0;
+    border: 1px solid gray;
+    border-left: none;
+    font-size: 14px;
+    background-color: #000000d1;
+    color: white;
+}
+.banner .overlay_contact_form form .btn {
+    background-color: #0080009c;
+    color: white;
+    padding: 8px 0px;
+    width: 30%;
+    border: none;
+    cursor: pointer;
+}
+.banner .overlay_contact_form form .btn:hover {
+    background-color: green;
+}
+.banner .overlay_contact_form form .btn:focus{
+  box-shadow: none;
+}
+
+/*********************buy teen patti software css***********************/
+.buy_experience .row1 .col1{
+  text-align: center;
+    padding: 30px 20px;
+    box-shadow: 0px 0px 10px #d2d2d2;
+    margin-bottom: 50px;
+}
+.buy_experience .row1 .col1:hover{
+    box-shadow: 0px 0px 20px #d2d2d2;
+}
+.buy_experience .row1 .col1 .image{
+  margin: auto;
+    background-color: black;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+}
+.buy_experience .row1 .col1 .image img{
+  width: 80px;
+  padding-top: 20px;
+}
+.buy_experience .row1 .col1 h4{
+  padding-top: 25px;
+    font-family: 'Dosis-SemiBold';
+}
+
+/*********************like_product section***************************/
+.like_product{
+  background-image: url('../img/feature_bg.png');
+  background-size: cover;
+}
+.like_product .row1{
+  padding: 10px 0px 50px 0px;
+}
+.like_product .row1 .col1{
+  text-align: center;
+  padding-top: 20px;
+}
+
+.like_product .row1 .col1 h4{
+  font-family: 'Dosis-SemiBold';
+  padding: 20px 0px;
+} 
+
+/*********************contact us section***************************/
+.contact_us{
+  background-image: url('../img/contact_bg.jpg');
+  background-size: cover;
+}
+.contact_us .overlay{
+  background-color: #000000cc;
+}
+.contact_us .row1{
+  padding-top: 20px;
+}
+.contact_us .row1 .contact_column{
+  padding-bottom: 50px;
+}
+.contact_us .row1 .col1 i{
+  background-color: white;
+  color: #292929;
+  font-size: 42px;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  padding-top: 20px;
+  text-align: center;
+  border: 5px solid #dfdfdf;
+}
+.contact_us .row1 .col2{
+  text-align: center;
+  color: white;
+}
+.contact_us .row1 .col2 p{
+  color: #fcd10a;
+}
+
+/*********************footer section***************************/
+footer{
+  background-color: black;
+}
+footer p{
+  color: white;
+  padding: 15px;
+  margin: 0;
+  text-align: center;
+}
+
+
+
+
+@media screen and (max-width: 767px){
+  .banner .overlay_contact_form{
+      width: 75%;
+      top: 58%;
+      right: 2%;
+  }
+  .sub_title {
+    font-size: 34px;
+  }
+  .like_product .row1 .col1 h4 {
+    font-size: 17px;
+    padding: 10px 0px;
+  }
+  .buy_experience .row1 .col1 {
+    padding: 15px;
+  }
+  .buy_experience .row1 .col1 h4 {
+    font-size: 17px;
+    padding-top: 15px;
+  }
+}
+
+@media screen and (max-width: 991px){
+  header .navbar .collapse ul li {
+    margin-left: 0px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+  .banner .overlay_contact_form{
+      width: 37%;
+  }
+  .contact_us .row1 .col1 i{
+    font-size: 30px;
+    width: 70px;
+    height: 70px;
+    padding-top: 18px;
+    border: 3px solid #dfdfdf;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px){
+  .banner .overlay_contact_form{
+      width: 32%;
+  }
+}
+
+
