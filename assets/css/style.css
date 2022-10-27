@@ -78,7 +78,7 @@
 /*********************header css***********************/
 header{
   background-color: #0e1721;
-  padding: 10px 0px;
+  padding: 5px 0px;
   box-shadow: 0 0 1px 0px #ddd;
 }
 header .navbar{
@@ -91,7 +91,7 @@ header .navbar button:focus{
   outline: none;
 }
 header .navbar img{
-  width: 200px;
+  width: 130px;
 }
 header .navbar .collapse ul li {
   margin-left: 50px;
