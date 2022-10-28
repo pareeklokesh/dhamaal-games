@@ -428,6 +428,9 @@ section#content {
 body {
   padding-top: 60px;
 }
+.howToplayEndBtn:hover {
+  background: #fdd935;
+}
 
 
 
