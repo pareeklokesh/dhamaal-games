@@ -763,7 +763,7 @@ border-bottom: 2px solid #1668e2;
   height: 20px;
   border-radius: 50%;
   border: 3px solid #fff;
-  background: #1668e2;
+  background: #fdd935;
   left: -1.7%;
   -webkit-box-shadow: 0 5px 10px 2px rgba(0, 0, 0, .2);
   box-shadow: 0 5px 5px 0 rgba(0, 0, 0, .2);
@@ -1153,4 +1153,17 @@ section.p-faqs {
 .top-banner-in .player-box {
   width: 100%;
 }
+}
+
+@media (max-width: 767px) {
+  .magento_wrapper .token_dev_sec {
+  padding: 50px 0 50px;
+}
+.token_dev_sec.token_dev_sec_right::after, .token_dev_sec.token_dev_sec_left::after {
+  width: 5px;
+}
+.hide_mobile {
+  display: none;
+}
+
 }
