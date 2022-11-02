@@ -1136,8 +1136,12 @@ section.p-faqs {
   margin-bottom: 0;
 }
 a {text-decoration: none !important;}
-.btn_theme {
-
+.fantasy-sports-block {
+  padding: 100px 0;
+}
+.fantasy-font {
+  font-size: 15px;
+  margin-bottom: 10px;
 }
 
 
