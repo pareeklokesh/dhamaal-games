@@ -1143,6 +1143,13 @@ a {text-decoration: none !important;}
   font-size: 15px;
   margin-bottom: 10px;
 }
+.token_dev_sec_img {
+  background: #fff;
+min-height: 419px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
 
 
 
