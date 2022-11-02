@@ -408,7 +408,7 @@ body {
   height: auto;
 }
 .mid-populer-sports {
-  padding: 150px 0 92px;
+  padding: 100px 0 92px;
   display: block;
 }
 .mid-populer-sports h4 {
@@ -724,7 +724,7 @@ img.pt1 {
 display: flex;
 justify-content: center;
 flex-direction: column;
-border-bottom: 2px solid #1668e2; 
+border-bottom: 2px solid #fdd935; 
 }
 .token_development_ser {
   padding: 100px 0;
