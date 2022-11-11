@@ -383,6 +383,9 @@ transform: translate3d(-280px, 0, 0);
   transition: all 0.8s ease-in;
   z-index: 9000;
 }
+.navbar-toggler.mobile_menu {
+  display: none !important;
+}
 
 
 
@@ -394,6 +397,9 @@ transform: translate3d(-280px, 0, 0);
 }
 header #collapsibleNavbar {
   display: none !important;
+}
+.navbar-toggler.mobile_menu {
+  display: inline-block !important;
 }
 }
 
@@ -1237,6 +1243,7 @@ display: flex;
 align-items: center;
 justify-content: center;
 }
+
 
 
 
